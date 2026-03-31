@@ -4,6 +4,12 @@ This repository contains my capstone project consisting of two applications buil
 
 ---
 
+## 🌐 Live Demo
+
+👉 https://edufyi-capstone-jatin-patil-hy5g.vercel.app/
+
+---
+
 ## 📌 Projects Included
 
 ### 1️⃣ Portfolio Website
@@ -30,61 +36,51 @@ A dynamic contact management system built using React.
 
 ---
 
+## 🧭 How to Use (Very Important)
+
+### 👉 Step 1: Open Live App
+Visit:
+https://edufyi-capstone-jatin-patil-hy5g.vercel.app/
+
+---
+
+### 👉 Step 2: Portfolio (Project 1)
+- Landing page is the Portfolio website
+- Scroll through sections
+- Use Contact Form to submit message
+
+---
+
+### 👉 Step 3: Admin Panel
+- Open Admin Panel from UI
+- Login using:
+
+Username: **jay**  
+Password: **jay09**
+
+- View submitted messages
+- Delete messages if needed
+
+---
+
+### 👉 Step 4: Contact Manager (Project 2)
+- Click **"Contact Manager"** link (footer/navigation)
+- You will be redirected to second application
+
+Features:
+- Add contacts
+- Edit / Delete contacts
+- Search contacts
+
+---
+
 ## ⚙️ Tech Stack
 
 - React.js
 - Tailwind CSS
 - JavaScript (ES6+)
-- FastAPI (Backend - optional)
 - localStorage (Data persistence)
-
----
-
-## 📥 Clone Repository
-
-git clone <your-repo-url>  
-cd Edufy-Capstone-Jatin-Patil  
-
----
-
-## ▶️ Run Frontend
-
-cd frontend  
-npm install  
-npm start  
-
-👉 Application runs on:  
-http://localhost:3000  
-
----
-
-## ▶️ Run Backend (Optional)
-
-cd backend  
-
-# Create virtual environment
-python3 -m venv venv  
-
-# Activate environment
-source venv/bin/activate        (Mac/Linux)  
-venv\Scripts\activate           (Windows)  
-
-# Install dependencies
-pip install -r requirements.txt  
-
-# Run server
-uvicorn server:app --reload  
-
-👉 Backend runs on:  
-http://127.0.0.1:8000  
-
----
-
-## 🔐 Admin Login
-
-Admin credentials are configured in:
-
-frontend/src/config/user.js  
+- FastAPI (Backend - optional)
 
 ---
 
@@ -95,21 +91,38 @@ frontend/src/config/user.js
 
 ---
 
-## 🧪 Features Summary
+## 📥 Run Locally
 
-✔ Responsive design  
-✔ Dark mode support  
-✔ Persistent data storage  
-✔ Clean UI/UX  
-✔ Modular component architecture  
+### ▶️ Frontend
+
+cd frontend  
+npm install  
+npm start  
+
+👉 http://localhost:3000  
+
+---
+
+### ▶️ Backend (Optional)
+
+cd backend  
+
+python3 -m venv venv  
+source venv/bin/activate        (Mac/Linux)  
+venv\Scripts\activate           (Windows)  
+
+pip install -r requirements.txt  
+uvicorn server:app --reload  
+
+👉 http://127.0.0.1:8000  
 
 ---
 
 ## 📌 Notes
 
-- Backend is optional (frontend works independently)
-- Project meets all capstone requirements
-- Additional enhancements included beyond requirements
+- Backend is optional (project works fully on frontend)
+- Designed as per capstone requirements
+- Includes additional enhancements
 
 ---
 

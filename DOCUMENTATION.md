@@ -6,10 +6,16 @@
 
 This capstone project consists of two main applications:
 
-1. Portfolio Website  
-2. Contact Manager Application  
+1. Portfolio Website (Landing Application)
+2. Contact Manager Application (Secondary Module)
 
-Both applications are built using React and follow modern frontend development practices.
+Both applications are integrated within a single React project and accessible via navigation.
+
+---
+
+## 🌐 Live Application
+
+https://edufyi-capstone-jatin-patil-hy5g.vercel.app/
 
 ---
 
@@ -20,77 +26,81 @@ Both applications are built using React and follow modern frontend development p
 ## 🎯 Objective
 
 To develop a personal portfolio website that includes:
-- User interface for profile display  
-- Contact form for user interaction  
-- Admin panel to manage submissions  
-- Persistent data storage  
-- Dark mode functionality  
+
+- Profile presentation
+- Contact form for user interaction
+- Admin panel to manage submissions
+- Persistent storage
+- Dark mode functionality
 
 ---
 
 ## 🏗 Architecture
 
-- Component-based architecture using React  
-- Modular structure for maintainability  
-- State management using React hooks  
+- Built using React (component-based architecture)
+- Modular and reusable components
+- State managed using React hooks
 
 ---
 
 ## 📁 Key Components
 
-### 1. Hero Section
-Displays introduction and branding  
+### Hero Section
+Displays introduction and branding
 
-### 2. About Section
-Shows personal and professional information  
+### About Section
+Shows personal and professional details
 
-### 3. Contact Section
-- Collects user input (Name, Email, Message)  
-- Handles form submission  
-- Validates user input  
+### Contact Section
+- Accepts Name, Email, Message
+- Performs validation
+- Stores data in localStorage
 
 ---
 
 ## 💾 Data Storage
 
-- Contact form data is stored in browser localStorage  
-- Data is stored as a JSON array  
+All contact form submissions are stored in localStorage as a JSON array.
 
-### Example Data Structure:
+### Data Structure:
 
 {
   "id": "unique_id",
   "name": "User Name",
   "email": "user@example.com",
-  "message": "Message content",
-  "timestamp": "ISO Date String"
+  "message": "User message",
+  "timestamp": "ISO string"
 }
 
 ---
 
 ## 🔐 Admin Panel
 
+### Access:
+Username: jay  
+Password: jay09  
+
 ### Features:
-- Login authentication  
-- Displays all submitted messages  
-- Delete messages functionality  
-- Message count display  
+- Login authentication
+- View all submitted messages
+- Delete messages
+- Displays timestamp for each entry
 
 ---
 
 ## 🌙 Dark Mode
 
-- Implemented using ThemeProvider  
-- Stored in localStorage  
-- Automatically persists user preference  
+- Implemented using ThemeProvider
+- User preference stored in localStorage
+- Automatically persists
 
 ---
 
 ## 📧 Validation
 
-- Email validation using regex  
-- Required fields validation  
-- User feedback via UI messages  
+- Email validation using regex
+- Required field validation
+- User-friendly error handling
 
 ---
 
@@ -104,68 +114,74 @@ To build a dynamic contact management system using React.
 
 ---
 
+## 📍 Navigation
+
+Accessible via:
+- Footer link
+- Navigation within Portfolio
+
+---
+
 ## 🏗 Architecture
 
-- Component-based design  
-- Separation of concerns  
-- Efficient state management  
+- Component-based design
+- Clean separation of UI and logic
+- Efficient state handling
 
 ---
 
 ## 📁 Components
 
 ### ContactForm
-- Handles input fields  
-- Adds or updates contacts  
+- Handles creation and update of contacts
 
 ### ContactList
-- Displays all contacts  
-- Handles filtering  
+- Displays list of contacts
+- Handles filtering
 
 ### ContactCard
-- Displays individual contact details  
-- Supports edit and delete actions  
+- Shows individual contact
+- Edit/Delete functionality
 
 ---
 
-## ⚙️ Functionality
+## ⚙️ Features
 
 ### Add Contact
-- Uses useState for state management  
-- Dynamically updates UI  
+- Adds new contact dynamically
 
 ### Edit Contact
-- Updates existing contact details  
+- Updates existing contact details
 
 ### Delete Contact
-- Removes contact from list  
+- Removes contact
 
-### Search & Filter
-- Implemented using useMemo  
-- Case-insensitive search  
+### Search
+- Filters contacts by name/company
+- Case-insensitive
 
 ---
 
 ## 💾 Persistence
 
-- Contacts stored in localStorage  
-- Automatically loaded on app startup  
-- Synced whenever data changes  
+- Stored in localStorage
+- Automatically loaded on page load
+- Updates in real-time
 
 ---
 
-## 🎨 UI/UX Design
+## 🎨 UI/UX
 
-- Responsive layout  
-- Card-based UI  
-- Hover interactions  
-- Smooth animations using Framer Motion  
+- Responsive design
+- Grid-based layout
+- Smooth animations (Framer Motion)
+- Interactive hover effects
 
 ---
 
 ## 🔄 Data Flow
 
-User Input → React State → localStorage → UI Update  
+User Input → React State → localStorage → UI Update
 
 ---
 
@@ -173,11 +189,11 @@ User Input → React State → localStorage → UI Update
 
 This project demonstrates:
 
-- Frontend development using React  
-- Component-based architecture  
-- State management using hooks  
-- Persistent data storage  
-- Modern UI/UX design principles  
+- Modern frontend development using React
+- Component-based architecture
+- State management
+- Persistent storage
+- UI/UX best practices
 
 ---
 
